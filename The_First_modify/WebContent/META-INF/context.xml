@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		name="jdbc/MySQL" 
+		auth="container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost/itwillbs5"
+		username="itwillbs5"
+		password="itwillbs8030909"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		
+		maxActive="500"
+	/>
+
+<!-- 	factory="org.apache.commons.dbcp2.BasicDataSourceFactory" -->
+
+<!-- 집에서 실행 해볼 때  -->
+<!-- url="jdbc:mysql://localhost:3306/project" -->
+<!-- username="itwillbs5" -->
+<!-- password="itwillbs8030909" -->
+
+		
+<!-- 파일 업로드 할 때 -->
+<!-- url="jdbc:mysql://localhost/itwillbs5" -->
+<!-- username="itwillbs5" -->
+<!-- 	password="itwillbs8030909" -->
+
+</Context>
